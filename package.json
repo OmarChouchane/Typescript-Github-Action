@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && ncc build lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,10 +20,11 @@
   },
   "homepage": "https://github.com/OmarChouchane/Typescript-Github-Action#readme",
   "devDependencies": {
+    "@vercel/ncc": "^0.38.4",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@actions/core": "^3.0.0",
-    "@actions/github": "^9.0.0"
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0"
   }
 }
