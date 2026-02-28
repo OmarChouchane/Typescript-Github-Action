@@ -1,4 +1,4 @@
-name: "Hello"
+name: "Label new pull requests"
 
 on:
     pull_request:
@@ -12,4 +12,4 @@ jobs:
             - uses: ./
               with:
                   gh-token: ${{ secrets.GITHUB_TOKEN }}
-                  label: "hello-world"
+                  label: "needs-review"
