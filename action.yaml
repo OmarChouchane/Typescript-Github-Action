@@ -1,4 +1,4 @@
-name: "Label new pull requests"
+name: "Pull requests Labeling"
 
 description: "Automatically label new pull requests with a specific label."
 
