@@ -3,5 +3,5 @@ name: "Label new pull requests"
 description: "Automatically label new pull requests with a specific label."
 
 runs:
-  using: "node16"
+  using: "node20"
   main: "dist/index.js"
