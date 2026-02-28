@@ -1,0 +1,25 @@
+{
+  "name": "typescript-github-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmarChouchane/Typescript-Github-Action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/OmarChouchane/Typescript-Github-Action/issues"
+  },
+  "homepage": "https://github.com/OmarChouchane/Typescript-Github-Action#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
