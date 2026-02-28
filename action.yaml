@@ -2,6 +2,14 @@ name: "Label new pull requests"
 
 description: "Automatically label new pull requests with a specific label."
 
+inputs:
+  gh-token:
+    description: "GitHub token with permissions to label pull requests."
+    required: true
+  label:
+    description: "The label to apply to new pull requests."
+    required: true
+    
 runs:
   using: "node20"
   main: "dist/index.js"

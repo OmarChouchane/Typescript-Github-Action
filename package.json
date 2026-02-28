@@ -21,5 +21,9 @@
   "homepage": "https://github.com/OmarChouchane/Typescript-Github-Action#readme",
   "devDependencies": {
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@actions/core": "^3.0.0",
+    "@actions/github": "^9.0.0"
   }
 }
